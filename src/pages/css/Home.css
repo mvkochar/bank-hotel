@@ -1,0 +1,52 @@
+.home-main {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.home-main-title {
+    font-family: 'Miracle', sans-serif;
+    font-size: 170px;
+
+    span {
+        color: var(--secondary-color);
+    }
+}
+
+.home-main-info {
+    margin-top: 28px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.home-main-year {
+    width: 249px;
+    margin-top: 40px;
+    padding-top: 25px;
+    padding-bottom: 19px;
+    padding-left: 88px;
+    background: url("/public/images/star.png") no-repeat 30px;
+    border: 1px solid var(--white);
+    border-radius: 99px;
+    font-size: 22px;
+}
+
+.home-main-desc {
+    max-width: 350px;
+    margin-top: 96px;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: .1em;
+}
+
+.home-main-btn {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    background: url("/public/images/polygon.png") no-repeat;
+    border: none;
+    cursor: pointer;   
+
+}

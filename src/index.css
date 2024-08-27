@@ -5,12 +5,14 @@
   --white: #fff;
   --primary-color: #313F38;
   --secondary-color: #FCD043;
+  --text-color: #1B3B36;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Helvetica Neue LT Std 55 Roman";
   font-weight: 400;
   color: var(--white);
 }
@@ -23,7 +25,7 @@ body {
   width: 1919px;
   margin: 0 auto;
   background-color: var(--primary-color);
-  font-family: "Helvetica Neue LT Std 55 Roman";
+  
 }
 
 .d-b {

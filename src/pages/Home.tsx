@@ -57,7 +57,6 @@ const Home = () => {
             <a href="" className="rooms-link"><img src="/images/arrow-down.svg" alt="arrow-down" /></a>
           </div>
         </div>
-
       </section>
       <section className='home-rooms'>
         <div className='d-f jc-sb'>
@@ -113,7 +112,7 @@ const Home = () => {
             <h3 className="facilities-num">01</h3>
             <h3 className="facilities-item-title">Ice Restaurant</h3>
             <p className="facilities-item-desc">
-              The hotel’s exclusive infrastructure is complemented by the unique atmosphere of the Safe Restaurant. 
+              The hotel’s exclusive infrastructure is complemented by the unique atmosphere of the Safe Restaurant.
               Author’s menu, extensive wine card, and live music will set you for the correct mood.
             </p>
           </div>
@@ -131,6 +130,64 @@ const Home = () => {
           <h3 className="facilities-item-title">Wine Bar “Reserve”</h3>
           <div><a href=""><img src="/images/arrow-right.png" alt="arrow-right" /></a></div>
         </div>
+      </section>
+      <section className='home-best'>
+        <h2 className='home-best-title'>Best apartments</h2>
+        <p className="home-best-desc">
+          All room decoration was made with ecological certified and safe materials.
+        </p>
+      </section>
+      <section className='home-gallery d-f'>
+        <div>
+          <h4 className="home-gallery-subtitle">Art & Congress hall</h4>
+          <div><img src="/images/gallery1.png" alt="gallery1" /></div>
+          <div style={{ marginTop: "341px", marginLeft: "30px" }}>
+            <img src="/images/gallery2.png" alt="gallery2" />
+          </div>
+        </div>
+        <div style={{ width: "916px", marginLeft: "173px" }}>
+          <div className='home-gallery-label'><img src="/images/gallery-label.png" alt="gallery-label" /></div>
+          <h2 className="home-gallery-title">Our Gallery</h2>
+          <p className="home-gallery-desc">
+            Explore our spacious rooms with the gorgeous view to the historical part of the city.
+            Each room has an exclusive interior design decorated with modern art pieces that will
+            make your stay unforgettable.
+          </p>
+          <div><img src="/images/gallery3.png" alt="gallery3" /></div>
+          <p className="home-gallery-note">It is our pleasure to meet your most unrealistic expectations.</p>
+        </div>
+        <div>
+          <div style={{ marginLeft: "173px" }}><img src="/images/gallery4.png" alt="gallery4" /></div>
+          <div style={{ marginTop: "902px" }}><img src="/images/gallery5.png" alt="gallery5" /></div>
+        </div>
+      </section>
+      <section className='home-touch d-f jc-sb'>
+        <div>
+          <div className="home-touch-phone">+38 032 297 50 20</div>
+          <form action="" className='home-touch-fm'>
+            <h3>Find a room</h3>
+            <div className="d-f">
+              <div className="select-box d-f">
+                <div className="select-bl">
+                  <select name="checkin">
+                    <option value="0">Check in</option>
+                  </select>
+                </div>
+                <div className="select-bl">
+                  <select name="checkout">
+                    <option value="0">Check out</option>
+                  </select>
+                </div>
+              </div>
+              <button type='button'>Book room</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <div className="home-touch-address">8 Lystopadovoho Chynu, Lviv</div>
+          <div><img src="/images/home-touch.png" alt="home-touch" /></div>
+        </div>
+        <h2 className="home-touch-title">Get in <br /> <span>touch</span></h2>
       </section>
     </>
   )

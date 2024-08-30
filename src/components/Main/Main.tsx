@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from '../../pages/Home'
+import { Home, Room } from '../../pages'
 
 const Main = () => {
     return (
@@ -8,6 +8,10 @@ const Main = () => {
             <Route
                 path='/'
                 element={<Home />}
+            />
+            <Route
+               path='room'
+               element={<Room/>} 
             />
         </Routes>
     )

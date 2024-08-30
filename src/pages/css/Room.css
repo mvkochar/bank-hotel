@@ -1,0 +1,133 @@
+.room-main {
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: url("/public/images/room-main-bg.png") no-repeat;
+}
+
+.room-main-title {
+    max-width: 711px;
+    font-family: 'Miracle', sans-serif;
+    font-size: 150px;
+    line-height: 1;
+    color: var(--secondary-color);
+}
+
+.room-main-desc {
+    max-width: 440px;
+    margin-top: 347px;
+    font-size: 26px;
+    color: var(--secondary-color);
+}
+
+.room-main-btn {
+    display: block;
+    align-self: flex-end;
+    width: 200px;
+    height: 200px;
+    padding-top: 8px;
+    background: url("/public/images/polygon7.png") no-repeat;
+    border: none;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.room-hero {
+    margin-top: 200px;
+    padding-left: 188px;
+    padding-right: 187px;
+    background: url("/public/images/curve2.png") no-repeat;
+    background-position-y: 500px;
+}
+
+.room-hero-year {
+    width: 249px;
+    padding-top: 23px;
+    padding-bottom: 16px;
+    padding-left: 88px;
+    background: url("/public/images/star.png") no-repeat;
+    background-position-y: 20px;
+    background-position-x: 30px;
+    border: 1px solid var(--white);
+    border-radius: 99px;
+    font-size: 22px;
+}
+
+.room-hero-title {
+    width: 757px;
+    margin-top: 100px;
+    margin-bottom: 44px;
+    font-family: 'Miracle', sans-serif;
+    font-size: 50px;
+}
+
+.room-hero-desc {
+    width: 350px;
+    align-self: last baseline;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.room-hero-premier {
+    margin-top: 244px;
+    margin-bottom: 100px;
+    font-size: 40px;
+    color: var(--secondary-color);
+}
+
+.room-info {
+    margin-top: -3px;
+    margin-bottom: -570px;
+    padding-top: 164px;
+    padding-bottom: 300px;
+    padding-left: 188px;
+    padding-right: 187px;
+    background-color: var(--white);
+
+    .info-desc__large {
+        width: 443px;
+        margin-top: 70px;
+    }
+}
+
+.room-info-label {
+   margin-left: 535px;
+}
+
+.room-info-box {
+    margin-top: -57px;
+}
+
+.room-info-title {
+    margin-top: 60px;
+    font-family: 'Miracle', sans-serif;
+    font-size: 50px;
+    color: var(--text-color);
+}
+
+.room-info-desc {
+    width: 350px;
+    margin-top: 39px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+.room-info-btn {
+    display: block;
+    width: 249px;
+    margin-top: 250px;
+    padding-top: 24px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 99px;
+    cursor: pointer;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: var(--text-color);
+}

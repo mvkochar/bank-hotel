@@ -109,7 +109,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-facilities-one d-f jc-sb align-center">
-          <div><a href=""><img src="/images/polygon5.png" alt="polygon5" /></a></div>
+          <div><Link to="/facility"><img src="/images/polygon5.png" alt="polygon5" /></Link></div>
           <div>
             <h3 className="facilities-num">01</h3>
             <h3 className="facilities-item-title">Ice Restaurant</h3>

@@ -1,0 +1,60 @@
+.facility-main {
+    margin-top: 40px;
+    padding-top: 49px;
+    padding-bottom: 250px;
+    padding-left: 30px;
+    background: url("/public/images/facility-main-bg.png") no-repeat 537px;
+    background-position-y: 0;
+    border-top: 1px solid rgba(255, 252, 246, 0.08)
+}
+
+.facility-main-title {
+    font-family: 'Miracle', sans-serif;
+    font-size: 150px;
+    line-height: 1;
+    color: var(--secondary-color);
+}
+
+.facility-main-subtitle {
+    margin-top: 150px;
+    font-family: 'Miracle', sans-serif;
+    font-size: 60px;
+}
+
+.facility-main-label {
+    margin-top: 155px;
+} 
+
+.facility-main-desc {
+    width: 350px;
+    margin-top: -25px;
+    margin-left: 95px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.facility-info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.facility-info-title {
+    margin-top: 150px;
+    font-family: 'Miracle', sans-serif;
+    font-size: 50px;
+}
+
+.facility-info-desc {
+    width: 443px;
+    margin-top: 40px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.facility-info-note {
+    width: 446px;
+    margin-top: 71px;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}

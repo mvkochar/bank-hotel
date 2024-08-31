@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Home, Room } from '../../pages'
+import { Facility, Home, Room } from '../../pages'
 
 const Main = () => {
     return (
@@ -12,6 +12,10 @@ const Main = () => {
             <Route
                path='room'
                element={<Room/>} 
+            />
+             <Route
+               path='facility'
+               element={<Facility/>} 
             />
         </Routes>
     )
